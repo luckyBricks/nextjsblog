@@ -1,0 +1,21 @@
+/* Header组件样式 */
+.header {
+    background-color: #fff;
+    padding: 0.4rem;
+    overflow: hidden;
+    height: 3rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.headerLogo {
+    color: #1e90ff;
+    font-size: 1.3rem;
+    text-align: start;
+}
+
+.header :global .ant-menu {
+    line-height: 2.6rem;
+}
+.header :global .ant-menu-item {
+    font-size: 0.9rem !important;
+}

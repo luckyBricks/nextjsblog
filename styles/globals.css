@@ -1,16 +1,30 @@
-html,
+/* 全局样式 */
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #f6f6f6;
+}
+/* 两栏布局 */
+.comm-left {
+    background-color: #fff;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border-bottom: 1px solid #eee;
+}
+.comm-right {
+    background-color: #fff;
+    padding: 0.3rem;
+    margin: 0 0.4rem;
+    border-radius: 0.3rem;
+    border-bottom: 1px solid #eee;
+}
+.comm-main {
+    margin-top: 1rem;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+ /* 圆角外框 */
+.comm-box {
+    background-color: #fff;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #eee;
 }

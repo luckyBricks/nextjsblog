@@ -1,0 +1,17 @@
+/* 个人信息样式 */
+.authorDiv{
+    text-align: center;
+    padding: 1rem;
+}
+.authorDiv div{
+    margin-bottom: 1rem;
+}
+.intro{
+    font-size: .8rem;
+    color: #999;
+}
+
+.account{
+    background-color: #999;
+    margin: 0 0.8rem;
+}
